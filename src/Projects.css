@@ -9,7 +9,7 @@
     padding : 10px;
 }
 .project-card{
-    height: 500px;
+    height: 550px;
     width: 400px;
     background-color: #1e293b;
     border-radius: 20px;
@@ -38,7 +38,7 @@
 .tech{
     padding:5px;
     background-color : #343d4d;
-    width : 70px;
+    width : 90px;
     text-align : center ;
     border-radius:5px;
 }
