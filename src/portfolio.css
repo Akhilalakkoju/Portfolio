@@ -395,9 +395,10 @@ button:hover {
   }
 
   .project-card {
-    width: 100%;
-    max-width: 320px;
-  }
+  width: 100%;
+  max-width: 320px;
+  min-height: 650px;
+}
 
   .one {
     width: 140px;
