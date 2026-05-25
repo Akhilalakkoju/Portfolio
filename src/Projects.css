@@ -9,13 +9,16 @@
     padding : 10px;
 }
 .project-card{
-    height: 550px;
+    height: 600px;
     width: 400px;
     background-color: #1e293b;
     border-radius: 20px;
     border: 2px solid rgb(70,70,70);
     transition: 0.3s ease;
     overflow: hidden;
+}
+.project-card p {
+    line-height : 30px;
 }
 .project-card:hover{
     transform: translateY(-5px);
