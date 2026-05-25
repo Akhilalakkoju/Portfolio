@@ -166,14 +166,21 @@ button:hover {
   border-radius: 50%;
 }
 
+.anime-box {
+  flex: 1 1 500px;
+  display: flex;
+  align-items : flex-end;
+  justify-content: flex-end;
+  margin-top: -40px;
+}
+
 .anime {
   width: 100%;
-  max-width: 420px;
-  height: 320px;
+  max-width: 500px;
+  height: 520px;
   object-fit: contain;
   display: block;
 }
-
 .icons {
   margin-top: 40px;
   display: flex;
