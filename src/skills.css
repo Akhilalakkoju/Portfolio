@@ -16,18 +16,21 @@
     width: 200px;
     font-size: 18px;
     margin-top: 20px;
-    margin-right: 20px;
     border-radius: 10px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     background: linear-gradient(
         to bottom,
         #0f172a,
         #111827
     );
+
     border: 2px solid white;
     color: white;
+
     transition: background 0.3s ease, transform 0.2s ease;
 }
 ::-webkit-scrollbar {
