@@ -100,15 +100,15 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-}
-.about-text p{
-    line-height: 35px;
 }
 
 .about-text {
   flex: 1 1 300px;
   min-width: 300px;
+}
+
+.about-text p {
+  line-height: 35px;
 }
 
 .about-photo {
@@ -165,6 +165,7 @@ button:hover {
   width: 100%;
   max-width: 480px;
   height: auto;
+  display: block;
 }
 
 .icons {
@@ -244,6 +245,13 @@ button:hover {
   font-weight: bold;
 }
 
+.anime {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  object-fit: contain;
+  display: block;
+}
 .project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -339,9 +347,10 @@ button:hover {
   display: none;
 }
 
-/* MOBILE RESPONSIVE */
+
 
 @media (max-width: 768px) {
+
   .flex,
   .about-wrapper {
     flex-direction: column;
@@ -355,8 +364,11 @@ button:hover {
   }
 
   .anime {
-    max-width: 330px;
-  }
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
 
   .mypic {
     max-width: 280px;
@@ -383,7 +395,8 @@ button:hover {
   }
 
   .project-card {
-    max-width: 350px;
+    width: 100%;
+    max-width: 320px;
   }
 
   .one {
@@ -392,5 +405,18 @@ button:hover {
 
   .icons {
     justify-content: center;
+  }
+
+  .github {
+    word-break: break-word;
+    font-size: 14px;
+  }
+
+  .technologies {
+    gap: 8px;
+  }
+
+  .text {
+    padding: 12px;
   }
 }
