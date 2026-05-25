@@ -56,11 +56,11 @@
     border-radius: 10px;
 }
 .skillcards{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 180px));
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .skillcard{
