@@ -29,7 +29,8 @@ nav{
     top: 0;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    flex-wrap:wrap;
+    gap: 10px;
     padding-top:10px;
     padding-bottom:10px;
     margin-left : 10px;
