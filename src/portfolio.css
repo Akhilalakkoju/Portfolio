@@ -168,8 +168,9 @@ button:hover {
 
 .anime {
   width: 100%;
-  max-width: 480px;
-  height: auto;
+  max-width: 420px;
+  height: 320px;
+  object-fit: contain;
   display: block;
 }
 
@@ -250,13 +251,6 @@ button:hover {
   font-weight: bold;
 }
 
-.anime {
-  width: 100%;
-  max-width: 500px;
-  height: 500px;
-  object-fit: contain;
-  display: block;
-}
 .project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -363,6 +357,9 @@ button:hover {
     text-align: center;
   }
 
+  .details{
+    align-items : flex-start ;
+  }
   .about-text {
     min-width: 0;
     width: 100%;
