@@ -32,7 +32,12 @@ p {
   width: 100%;
   padding-top: 10px;
 }
-
+.letter {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
 .Nav h1 {
   text-align: center;
   color: #a855f7;
@@ -97,6 +102,7 @@ button:hover {
 }
 .details{
    display : flex;
+   margin-top : 50px;
    flex-direction : column;
    align-items : flex-start ;
 }
@@ -105,29 +111,27 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left : 40px;
+  padding-right: 40px;
 }
 
 .about-text {
   flex: 1 1 300px;
   min-width: 300px;
 }
-
+.wrap {
+  display : flex;
+  flex-direction : column ;
+  align-items : center ;
+  justify-content : center;
+  flex-wrap : wrap;
+}
 .about-text p {
   line-height: 35px;
+  text-align: center;
 }
 
-.about-photo {
-  flex: 1 1 300px;
-  display: flex;
-  justify-content: center;
-}
 
-.mypic {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  object-fit: cover;
-}
 
 .About,
 .skills {
@@ -363,14 +367,23 @@ button:hover {
     align-items: center;
     text-align: center;
   }
+  .wrap {
+  display : flex;
+  flex-direction : column ;
+  align-items : center ;
+  justify-content : center;
+}
 
-  .details{
-    align-items : flex-start ;
-  }
   .about-text {
-    min-width: 0;
-    width: 100%;
-  }
+  width: 100%;
+  max-width: 900px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
 
   .anime {
   width: 100%;
@@ -379,9 +392,6 @@ button:hover {
   object-fit: contain;
 }
 
-  .mypic {
-    max-width: 280px;
-  }
 
   .Name,
   .About,
