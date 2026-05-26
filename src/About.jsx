@@ -3,7 +3,7 @@ import edu from './assets/edu.png';
 import college from './assets/college.png';
 import location from './assets/location.png';
 import email from './assets/email.png';
-import mypic from './assets/mypic.jpeg';
+
 
 
 export function About() {
@@ -21,8 +21,8 @@ export function About() {
 
     Currently, I am improving my skills in DSA, React, JavaScript, and responsive web design by building real-world projects and exploring modern web technologies.
 </p>
-
-                        <div className = "details">
+                        <div className = "wrap">
+                                <div className = "details">
                     <div className = "row">
                         <img src={person_icon} alt="Person icon" className = "image"/>
                         <p style={{ ...textStyle, display: 'inline-block' , margin: '0px' }}>Name: Lakkoju Jaya sri Durga Venkata Naga Sai Akhila</p>
@@ -44,10 +44,9 @@ export function About() {
                         <p style={{ ...textStyle, display: 'inline-block' }}>Email: akhilalakkoju779@gmail.com</p>
                     </div>
                 </div>
+                        </div>
                     </div>
-                    <div className="about-photo">
-                        <img src = {mypic} className = "mypic" alt="Akhila Lakkoju" />
-                    </div>
+                   
                 </div>
         </>
     );
