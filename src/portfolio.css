@@ -31,6 +31,7 @@ p {
   z-index: 100;
   width: 100%;
   padding-top: 10px;
+margin-bottom: 10px;
 }
 
 .Nav h1 {
@@ -47,7 +48,7 @@ nav {
   background: linear-gradient(to bottom, #0f172a, #111827);
   border-radius: 10px;
   flex-wrap: wrap;
-margin-bottom: 10px;
+
 }
 
 nav a {
