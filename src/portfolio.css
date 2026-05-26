@@ -47,6 +47,7 @@ nav {
   background: linear-gradient(to bottom, #0f172a, #111827);
   border-radius: 10px;
   flex-wrap: wrap;
+margin-bottom: 10px;
 }
 
 nav a {
