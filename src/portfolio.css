@@ -111,8 +111,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left : 40px;
-  padding-right: 40px;
 }
 
 .about-text {
