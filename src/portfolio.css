@@ -365,31 +365,31 @@ button:hover {
     align-items: center;
     text-align: center;
   }
+
   .wrap {
-  display : flex;
-  flex-direction : column ;
-  align-items : center ;
-  justify-content : center;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .about-text {
-  width: 100%;
-  max-width: 900px;
+    width: 100%;
+    max-width: 900px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-  text-align: center;
-}
+    text-align: center;
+  }
 
   .anime {
-  width: 100%;
-  max-width: 400px;
-  height: 400px;
-  object-fit: contain;
-}
-
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    object-fit: contain;
+  }
 
   .Name,
   .About,
@@ -411,14 +411,19 @@ button:hover {
     font-size: 14px;
   }
 
-.project-card {
-  width: 100%;
-  max-width: 320px;
-  min-height: 600px;
-}
+  .project-card {
+    width: 100%;
+    max-width: 320px;
+    min-height: 600px;
+  }
 
   .one {
-    width: 140px;
+    width: 180px;
+  }
+
+  .skillcard {
+    width: 180px;
+    height: 180px;
   }
 
   .icons {
@@ -439,6 +444,6 @@ button:hover {
   }
 
   section {
-  scroll-margin-top: 200px;
-}
+    scroll-margin-top: 200px;
+  }
 }
