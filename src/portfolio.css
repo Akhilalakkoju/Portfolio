@@ -387,8 +387,7 @@ button:hover {
   }
 
   .Name,
-  .About,
-  .skills {
+  .About {
     font-size: 38px;
   }
 
@@ -428,6 +427,9 @@ button:hover {
   .github {
     word-break: break-word;
     font-size: 14px;
+  }
+  .skills {
+    font-size : 34px;
   }
 
   .technologies {
