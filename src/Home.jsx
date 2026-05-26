@@ -18,7 +18,7 @@ export function Home() {
                             <button>View Projects  &#8594;</button>
                         </a>
                         <a href = "#contact">
-                            <button> Get In Touch  &#9993;</button>
+                            <button> Get In Touch  <span className = "letter">&#9993;</span></button>
                         </a>
                         <div className = "icons">
                             <a href = "https://www.linkedin.com/in/akhila-lakkoju-a63b5732b/" target = "_blank">
@@ -36,9 +36,9 @@ export function Home() {
                             </a>
                         </div>
                         </div>
-                        <div>
-                            <img src = {anime} className = "anime"></img>
-                        </div>
+                        <div className="anime-box">
+  <img src={anime} className="anime" alt="coding girl" />
+</div>
                         </div>
         </>
     );
