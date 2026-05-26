@@ -388,7 +388,7 @@ button:hover {
 
   .Name,
   .About {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   button {
@@ -428,9 +428,7 @@ button:hover {
     word-break: break-word;
     font-size: 14px;
   }
-  .skills {
-    font-size : 25px;
-  }
+  
 
   .technologies {
     gap: 8px;
