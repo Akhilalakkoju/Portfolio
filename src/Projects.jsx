@@ -1,10 +1,20 @@
 import youtube from "./assets/youtube_project.png";
 import todo from "./assets/todo.png";
 import form from "./assets/form.png";
+import myWebsite from "./assets/my-website.png";
 import "./Projects.css";
 
 export function Projects() {
   const projects = [
+    {
+      image: myWebsite,
+      title: "Personal Portfolio Website",
+      description:
+        "A responsive personal portfolio website built using HTML, CSS, and JavaScript, focused on modern UI and responsive frontend design.",
+      tech: ["HTML", "CSS", "JavaScript", "React"],
+      github: "https://github.com/Akhilalakkoju/Portfolio",
+      live: "https://portfolio-78ns.vercel.app/"
+    },
     {
       image: youtube,
       title: "Youtube Static Clone",
