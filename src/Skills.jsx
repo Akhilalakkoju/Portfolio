@@ -8,7 +8,6 @@ import java from "./assets/java.png";
 import c_lang from "./assets/c-lang.png";
 import github from './assets/github-w.webp';
 import vscode from "./assets/vscode.png";
-import figma from "./assets/figma.png";
 import api from "./assets/API.svg";
 
 export function Skills() {
@@ -31,8 +30,7 @@ export function Skills() {
 
         tools: [
             { image: github, name: "GitHub" },
-            { image: vscode, name: "VS Code" },
-            { image: figma, name: "Figma" }
+            { image: vscode, name: "VS Code" }
         ],
 
         others: [
